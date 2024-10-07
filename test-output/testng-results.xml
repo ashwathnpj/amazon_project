@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[test case is passed because, signin is not happening with invalid password]]>
+    </line>
+    <line>
+      <![CDATA[my test case is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-07T10:21:15 IST" name="Default suite" finished-at="2024-10-07T10:21:32 IST" duration-ms="16449">
+    <groups>
+    </groups>
+    <test started-at="2024-10-07T10:21:15 IST" name="Default test" finished-at="2024-10-07T10:21:32 IST" duration-ms="16449">
+      <class name="com.amazon.automation.Amazon_Automation.Amazon_InvalidLogin">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.amazon.automation.Amazon_Automation.Amazon_InvalidLogin@bae7dc0]" started-at="2024-10-07T10:21:15 IST" name="launch" finished-at="2024-10-07T10:21:23 IST" duration-ms="7340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Amazon_InvalidLoginEmail()[pri:0, instance:com.amazon.automation.Amazon_Automation.Amazon_InvalidLogin@bae7dc0]" started-at="2024-10-07T10:21:23 IST" name="Amazon_InvalidLoginEmail" finished-at="2024-10-07T10:21:29 IST" duration-ms="6681" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is passed because, signin is not happening with invalid password]]>
+            </line>
+            <line>
+              <![CDATA[my test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Amazon_InvalidLoginEmail -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.amazon.automation.Amazon_Automation.Amazon_InvalidLogin@bae7dc0]" started-at="2024-10-07T10:21:30 IST" name="quit" finished-at="2024-10-07T10:21:32 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.amazon.automation.Amazon_Automation.Amazon_InvalidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
